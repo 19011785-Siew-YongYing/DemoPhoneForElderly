@@ -20,10 +20,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         tvTranslatedText = findViewById(R.id.textViewTranslatedText);
-        tvTranslatedText2 = findViewById(R.id.textViewTranslatedText2);
         registerForContextMenu(tvTranslatedText);
-        registerForContextMenu(tvTranslatedText2);
 
+        tvTranslatedText2 = findViewById(R.id.textViewTranslatedText2);
+        registerForContextMenu(tvTranslatedText2);
     }
 
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo){
