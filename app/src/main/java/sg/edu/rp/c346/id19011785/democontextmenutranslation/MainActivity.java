@@ -46,13 +46,13 @@ public class MainActivity extends AppCompatActivity {
         if (wordClicked.equalsIgnoreCase("hello")){
             if(item.getItemId()==0) { //check whether the selected menu item ID is 0
                 //code for action
-                Toast.makeText(MainActivity.this, "English is chosen", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "English is chosen", Toast.LENGTH_LONG).show(); // shown as .LENGTH_SHORT in WS
                 tvTranslatedText.setText("Hello");
                 return true; //menu item successfully handled
             }
             else if(item.getItemId() == 1){ // check if the selected menu item ID is 1
                 // code for action
-                Toast.makeText(MainActivity.this, "Italian is chosen", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Italian is chosen", Toast.LENGTH_LONG).show(); // shown as .LENGTH_SHORT in WS
                 tvTranslatedText.setText("Ciao");
                 return true; // menu item successfully handled
             }
@@ -61,13 +61,13 @@ public class MainActivity extends AppCompatActivity {
         else if (wordClicked.equalsIgnoreCase("bye")){
             if(item.getItemId()==0) { //check whether the selected menu item ID is 0
                 //code for action
-                Toast.makeText(MainActivity.this, "English is chosen", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "English is chosen", Toast.LENGTH_LONG).show(); // shown as .LENGTH_SHORT in WS
                 tvTranslatedText2.setText("Bye");
                 return true; //menu item successfully handled
             }
             else if(item.getItemId() == 1) { // check if the selected menu item ID is 1
                 // code for action
-                Toast.makeText(MainActivity.this, "Italian is chosen", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Italian is chosen", Toast.LENGTH_LONG).show(); // shown as .LENGTH_SHORT in WS
                 tvTranslatedText2.setText("Addio");
                 return true; // menu item successfully handled
             }
